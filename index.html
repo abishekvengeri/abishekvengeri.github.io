@@ -23,25 +23,22 @@
     <h1>Cybersecurity Analyst</h1>
     <h2>SOC & Threat Detection</h2>
     <p>
-        Cybersecurity professional with hands-on experience in SOC workflows,
-        SIEM alert triage, incident investigation, and threat detection using Splunk.
-        Skilled in log analysis, MITRE ATT&CK mapping, vulnerability assessment,
-        and automation-driven security analysis.
+        Specialized in SIEM monitoring, alert triage, log correlation, and incident response.
+        Hands-on experience with Splunk, MITRE ATT&CK mapping, and security automation.
     </p>
+
     <div class="buttons">
         <a href="#projects" class="btn primary">View Projects</a>
-        <a href="#contact" class="btn secondary">Contact Me</a>
+        <a href="resume.pdf" class="btn secondary" download>Download Resume</a>
     </div>
 </section>
 
 <section id="about" class="section">
     <h3>About Me</h3>
     <p>
-        I am a cybersecurity graduate with practical exposure to Security Operations (SOC),
-        SIEM monitoring, incident response, and log analysis. My training at Redteam Hacker
-        Academy focused on enterprise SIEM workflows, alert correlation, and investigation.
-        I actively build detection logic, simulate attack scenarios, and develop automation
-        tools to reduce false positives and improve response efficiency.
+        Cybersecurity professional trained in SOC workflows and SIEM operations at Redteam Hacker Academy.
+        Experienced in building detection queries, investigating alerts, and documenting incident workflows.
+        Strong foundation in TCP/IP, log analysis, and Python-based security automation.
     </p>
 </section>
 
@@ -50,61 +47,70 @@
 
     <div class="card">
         <h4>Cybersecurity Intern – CodeAlpha</h4>
-        <p class="date">Jan 2026 – Feb 2026 | Remote</p>
+        <span>Jan 2026 – Feb 2026 | Remote</span>
         <ul>
-            <li>Monitored security alerts and supported basic incident investigations.</li>
-            <li>Researched malware behavior and analyzed suspicious activities.</li>
-            <li>Documented findings and investigation summaries.</li>
+            <li>Monitored and triaged security alerts.</li>
+            <li>Analyzed suspicious activity and malware behavior.</li>
+            <li>Documented investigations and findings.</li>
         </ul>
     </div>
 
     <div class="card">
         <h4>SIEM / SOC Training – Redteam Hacker Academy</h4>
-        <p class="date">2024 – 2025</p>
+        <span>2024 – 2025</span>
         <ul>
-            <li>Performed SIEM alert monitoring using Splunk and ELK (lab).</li>
-            <li>Built detection queries and dashboards aligned with MITRE ATT&CK.</li>
-            <li>Practiced incident triage, escalation, and documentation workflows.</li>
+            <li>Built SPL detection rules and dashboards.</li>
+            <li>Performed log correlation and MITRE mapping.</li>
+            <li>Simulated SOC triage and escalation workflow.</li>
         </ul>
     </div>
-
 </section>
 
 <section id="projects" class="section">
     <h3>Featured Projects</h3>
 
-    <div class="card">
-        <h4>Ransomware Traffic Detector</h4>
-        <p>Python-based tool analyzing DNS queries and C2 indicators to detect ransomware activity.</p>
-    </div>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h4>Ransomware Traffic Detector</h4>
+            <p>Detects ransomware-related DNS and C2 indicators using Python.</p>
+            <a href="https://github.com/abishekvengeri" target="_blank">View Code →</a>
+        </div>
 
-    <div class="card">
-        <h4>Malware Analysis Sandbox</h4>
-        <p>Isolated VM environment to analyze malware behavior and map findings to MITRE ATT&CK.</p>
-    </div>
+        <div class="project-card">
+            <h4>Malware Analysis Sandbox</h4>
+            <p>Isolated VM for behavioral analysis and MITRE ATT&CK mapping.</p>
+            <a href="https://github.com/abishekvengeri" target="_blank">View Code →</a>
+        </div>
 
-    <div class="card">
-        <h4>False Positive Reduction Tool</h4>
-        <p>Correlates SIEM alerts against attack baselines to reduce false positives.</p>
-    </div>
-
-    <div class="card">
-        <h4>Threat Intelligence Feed Integrator</h4>
-        <p>Aggregates IOC feeds into centralized dashboard for faster threat enrichment.</p>
+        <div class="project-card">
+            <h4>False Positive Reduction Tool</h4>
+            <p>Correlates alerts against attack baselines to reduce SOC noise.</p>
+            <a href="https://github.com/abishekvengeri" target="_blank">View Code →</a>
+        </div>
     </div>
 </section>
 
 <section id="skills" class="section">
     <h3>Technical Skills</h3>
-    <div class="skills-grid">
-        <div>Splunk (SPL, Dashboards, Alerts)</div>
-        <div>SIEM Log Analysis</div>
-        <div>MITRE ATT&CK Mapping</div>
-        <div>Wireshark & Network Analysis</div>
-        <div>Vulnerability Assessment</div>
-        <div>Python (Security Automation)</div>
-        <div>TCP/IP, DNS, HTTP/HTTPS</div>
-        <div>Incident Triage & Documentation</div>
+
+    <div class="skill">
+        <span>Splunk (SPL, Dashboards)</span>
+        <div class="progress"><div class="bar" data-width="90%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>SIEM Log Analysis</span>
+        <div class="progress"><div class="bar" data-width="85%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>Incident Triage & Response</span>
+        <div class="progress"><div class="bar" data-width="88%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>Python Automation</span>
+        <div class="progress"><div class="bar" data-width="80%"></div></div>
     </div>
 </section>
 
@@ -119,5 +125,6 @@
     <p>© 2026 Abishek V | Cybersecurity Analyst</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
