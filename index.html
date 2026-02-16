@@ -1,126 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Abishek V | SOC Analyst Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SOC Analyst Portfolio – Hands-on SIEM, Detection Engineering, and Incident Response using Splunk and Wazuh.">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Abishek V | Cybersecurity Analyst</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>Abishek V</h1>
-  <p class="subtitle">SOC Analyst | SIEM • Detection • Incident Response</p>
+    <div class="logo">Abishek V</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<section>
-  <h2>About Me</h2>
-  <p>
-    I am an aspiring SOC Analyst focused on building strong hands-on experience in
-    Security Operations, detection engineering, and incident response.
-  </p>
-  <p>
-    Instead of relying only on theory, I actively simulate attacks, analyze logs,
-    build detections, configure alerts, and document investigations using
-    Splunk and Wazuh.
-  </p>
-  <p>
-    This portfolio highlights how I think and work during real SOC-style scenarios.
-  </p>
+<section class="hero">
+    <h1>Cybersecurity Analyst</h1>
+    <h2>SOC & Threat Detection</h2>
+    <p>
+        Cybersecurity professional with hands-on experience in SOC workflows,
+        SIEM alert triage, incident investigation, and threat detection using Splunk.
+        Skilled in log analysis, MITRE ATT&CK mapping, vulnerability assessment,
+        and automation-driven security analysis.
+    </p>
+    <div class="buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
 </section>
 
-<section>
-  <h2>Core Skills</h2>
-  <ul>
-    <li><strong>SIEM:</strong> Splunk, Wazuh</li>
-    <li><strong>Detection:</strong> SPL, Threshold & Behavior-based Alerts</li>
-    <li><strong>Incident Response:</strong> Brute Force, Web Attacks, Recon</li>
-    <li><strong>Frameworks:</strong> MITRE ATT&CK</li>
-    <li><strong>OS:</strong> Linux, Windows</li>
-    <li><strong>Tools:</strong> Nmap, Hydra, Wireshark</li>
-  </ul>
+<section id="about" class="section">
+    <h3>About Me</h3>
+    <p>
+        I am a cybersecurity graduate with practical exposure to Security Operations (SOC),
+        SIEM monitoring, incident response, and log analysis. My training at Redteam Hacker
+        Academy focused on enterprise SIEM workflows, alert correlation, and investigation.
+        I actively build detection logic, simulate attack scenarios, and develop automation
+        tools to reduce false positives and improve response efficiency.
+    </p>
 </section>
 
-<section>
-  <h2>Selected Case Studies</h2>
+<section id="experience" class="section">
+    <h3>Experience</h3>
 
-  <div class="project">
-    <h3>SSH Brute-Force Detection (Wazuh)</h3>
-    <p>
-      Simulated an SSH brute-force attack using Hydra and validated Wazuh’s
-      detection logic, alert escalation, and MITRE ATT&CK mapping.
-    </p>
-    <a href="https://github.com/abishekvengeri/SOC-Analyst-Portfolio/tree/main/6-Incident-Response/IR-Case-01-SSH-Bruteforce-Wazuh" target="_blank">
-      View Lab →
-    </a>
-  </div>
+    <div class="card">
+        <h4>Cybersecurity Intern – CodeAlpha</h4>
+        <p class="date">Jan 2026 – Feb 2026 | Remote</p>
+        <ul>
+            <li>Monitored security alerts and supported basic incident investigations.</li>
+            <li>Researched malware behavior and analyzed suspicious activities.</li>
+            <li>Documented findings and investigation summaries.</li>
+        </ul>
+    </div>
 
-  <div class="project">
-    <h3>Web Reconnaissance Detection (Wazuh)</h3>
-    <p>
-      Detected Nmap NSE–based web reconnaissance activity using Apache logs,
-      correlated with MITRE T1595.002 (Vulnerability Scanning).
-    </p>
-    <a href="https://github.com/abishekvengeri/SOC-Analyst-Portfolio/tree/main/6-Incident-Response/IR-Case-02-Web-Recon-Wazuh" target="_blank">
-      View Lab →
-    </a>
-  </div>
-
-  <div class="project">
-    <h3>SQL Injection Detection & Alerting (Splunk)</h3>
-    <p>
-      Built SQL injection detections using Apache access logs, converted them
-      into scheduled alerts, and validated real-time triggering in Splunk.
-    </p>
-    <a href="https://github.com/abishekvengeri/SOC-Analyst-Portfolio/tree/main/3-SIEM-Use-Cases" target="_blank">
-      View Lab →
-    </a>
-  </div>
-
-  <div class="project">
-    <h3>Threat Intelligence Correlation & Alerting (Splunk)</h3>
-    <p>
-      Integrated a mock threat intelligence feed, enriched web logs, built dashboards,
-      and configured alerts for high and medium risk indicators.
-    </p>
-    <a href="https://github.com/abishekvengeri/SOC-Analyst-Portfolio/tree/main/3-SIEM-Use-Cases" target="_blank">
-      View Lab →
-    </a>
-  </div>
+    <div class="card">
+        <h4>SIEM / SOC Training – Redteam Hacker Academy</h4>
+        <p class="date">2024 – 2025</p>
+        <ul>
+            <li>Performed SIEM alert monitoring using Splunk and ELK (lab).</li>
+            <li>Built detection queries and dashboards aligned with MITRE ATT&CK.</li>
+            <li>Practiced incident triage, escalation, and documentation workflows.</li>
+        </ul>
+    </div>
 
 </section>
 
-<section>
-  <h2>Projects & Evidence</h2>
-  <p>
-    All detailed labs, screenshots, SPL queries, and investigation notes are available
-    in my main GitHub repository:
-  </p>
-  <p>
-    <a href="https://github.com/abishekvengeri/SOC-Analyst-Portfolio" target="_blank">
-      github.com/abishekvengeri/SOC-Analyst-Portfolio
-    </a>
-  </p>
+<section id="projects" class="section">
+    <h3>Featured Projects</h3>
+
+    <div class="card">
+        <h4>Ransomware Traffic Detector</h4>
+        <p>Python-based tool analyzing DNS queries and C2 indicators to detect ransomware activity.</p>
+    </div>
+
+    <div class="card">
+        <h4>Malware Analysis Sandbox</h4>
+        <p>Isolated VM environment to analyze malware behavior and map findings to MITRE ATT&CK.</p>
+    </div>
+
+    <div class="card">
+        <h4>False Positive Reduction Tool</h4>
+        <p>Correlates SIEM alerts against attack baselines to reduce false positives.</p>
+    </div>
+
+    <div class="card">
+        <h4>Threat Intelligence Feed Integrator</h4>
+        <p>Aggregates IOC feeds into centralized dashboard for faster threat enrichment.</p>
+    </div>
 </section>
 
-<section>
-  <h2>Contact</h2>
-  <p>
-    GitHub:
-    <a href="https://github.com/abishekvengeri" target="_blank">
-      https://github.com/abishekvengeri
-    </a>
-  </p>
-  <p>
-    LinkedIn: <em>(add your LinkedIn profile link here)</em>
-  </p>
+<section id="skills" class="section">
+    <h3>Technical Skills</h3>
+    <div class="skills-grid">
+        <div>Splunk (SPL, Dashboards, Alerts)</div>
+        <div>SIEM Log Analysis</div>
+        <div>MITRE ATT&CK Mapping</div>
+        <div>Wireshark & Network Analysis</div>
+        <div>Vulnerability Assessment</div>
+        <div>Python (Security Automation)</div>
+        <div>TCP/IP, DNS, HTTP/HTTPS</div>
+        <div>Incident Triage & Documentation</div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h3>Contact</h3>
+    <p>Email: abishekvengeri@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/abishekvengeri</p>
+    <p>GitHub: github.com/abishekvengeri</p>
 </section>
 
 <footer>
-  <p>
-    This portfolio is actively updated with new SOC labs and investigations.
-  </p>
+    <p>© 2026 Abishek V | Cybersecurity Analyst</p>
 </footer>
 
 </body>
