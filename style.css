@@ -1,70 +1,119 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f6f8;
-  color: #333;
-  line-height: 1.6;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #e2e8f0;
 }
 
 header {
-  background-color: #1f2933;
-  color: #ffffff;
-  text-align: center;
-  padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #0f172a;
+    border-bottom: 1px solid #1e293b;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 36px;
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #38bdf8;
 }
 
-.subtitle {
-  margin-top: 10px;
-  font-size: 16px;
-  color: #cfd8dc;
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #cbd5e1;
 }
 
-section {
-  background: #ffffff;
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 25px;
-  border-radius: 6px;
+nav a:hover {
+    color: #38bdf8;
 }
 
-h2 {
-  margin-top: 0;
-  color: #1f2933;
+.hero {
+    text-align: center;
+    padding: 100px 20px;
 }
 
-ul {
-  padding-left: 20px;
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #38bdf8;
 }
 
-.project {
-  border-left: 4px solid #0066cc;
-  padding-left: 15px;
-  margin-bottom: 20px;
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.project h3 {
-  margin-bottom: 5px;
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
 }
 
-.project a {
-  text-decoration: none;
-  color: #0066cc;
-  font-weight: bold;
+.buttons {
+    margin-top: 30px;
 }
 
-.project a:hover {
-  text-decoration: underline;
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.primary {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+.secondary {
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+
+.section {
+    padding: 80px 50px;
+}
+
+.section h3 {
+    margin-bottom: 30px;
+    color: #38bdf8;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+.date {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.skills-grid div {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 6px;
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-  color: #666;
+    text-align: center;
+    padding: 20px;
+    background: #0f172a;
+    font-size: 14px;
 }
